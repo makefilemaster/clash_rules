@@ -55,6 +55,7 @@ payload:
   - PROCESS-NAME,com.google.android.youtube.tv
   - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,gvt1.com
+  - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN-SUFFIX,video.google.com
   - DOMAIN-SUFFIX,youtu.be
   - DOMAIN-SUFFIX,youtube.ae
@@ -122,3 +123,53 @@ payload:
   - DOMAIN-SUFFIX,youtube.com.mk
   - DOMAIN-SUFFIX,youtube.com.mt
   - DOMAIN-SUFFIX,youtube.com.mx
+
+  # Instagram  (через, например, PROXY-GROUP = GLOBAL/Media/…)
+  - DOMAIN-KEYWORD,instagram          #  охватывает graph.instagram.com и др.
+  - DOMAIN-SUFFIX,instagram.com       #  основной сайт + API
+  - DOMAIN-SUFFIX,cdninstagram.com    #  фотографии / видеоконтент (scontent.*)
+  - DOMAIN-SUFFIX,instagr.am          #  старый короткий домен
+  - DOMAIN-SUFFIX,ig.me               #  короткие ссылки в DM
+  - DOMAIN-SUFFIX,igsonar.com         #  телеметрия/пуш-серверы
+
+  # Instagram-чат и push-MQTT (живут в Facebook-зоне, но к IG-функциям)
+  - DOMAIN-SUFFIX,z-p42-chat-e2ee-ig.facebook.com
+  - DOMAIN-SUFFIX,z-p42-chat-e2ee-ig-fallback.facebook.com
+  - DOMAIN-SUFFIX,mqtt-ig-p4.facebook.com
+
+  - DOMAIN-KEYWORD,google           # ловит все google.* TLD (google.fr, google.ru…)
+  - DOMAIN-SUFFIX,google.com
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,ggpht.com
+  - DOMAIN-SUFFIX,googlemail.com
+  - DOMAIN-SUFFIX,withgoogle.com
+  - DOMAIN-SUFFIX,1e100.net         # серверы GFE/Front-end
+
+  # ─── CDN и медиа Google ──────────
+  - DOMAIN-SUFFIX,gvt1.com
+  - DOMAIN-SUFFIX,gvt2.com
+  - DOMAIN-SUFFIX,gvt3.com
+  - DOMAIN-SUFFIX,googlevideo.com   # Play Movies, WebRTC-media
+
+  # ─── Android / Google Play ───────
+  - DOMAIN-SUFFIX,android.com
+  - DOMAIN-SUFFIX,play.googleapis.com
+  - DOMAIN-SUFFIX,mtalk.google.com          # FCM push
+  - DOMAIN-SUFFIX,mtalk4.google.com
+  - DOMAIN-SUFFIX,device-provisioning.googleapis.com
+  - DOMAIN-SUFFIX,firebaseinstallations.googleapis.com
+
+  # ─── Chrome / Cast / App Engine ──
+  - DOMAIN-SUFFIX,chromecast.com
+  - DOMAIN-SUFFIX,chromium.org
+  - DOMAIN-SUFFIX,appspot.com
+
+  # ─── Реклама и телеметрия (опционально) ─
+  - DOMAIN-SUFFIX,googlesyndication.com
+  - DOMAIN-SUFFIX,googleadservices.com
+  - DOMAIN-SUFFIX,doubleclick.net
+  - DOMAIN-SUFFIX,googletagmanager.com
+  - DOMAIN-SUFFIX,googletagservices.com
+  - DOMAIN-SUFFIX,google-analytics.com
