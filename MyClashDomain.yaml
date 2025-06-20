@@ -173,3 +173,21 @@ payload:
   - DOMAIN-SUFFIX,googletagmanager.com
   - DOMAIN-SUFFIX,googletagservices.com
   - DOMAIN-SUFFIX,google-analytics.com
+
+  # ─── Torrent-площадки ─────────────────────────────
+  - DOMAIN-SUFFIX,rutracker.org
+  - DOMAIN-SUFFIX,tapochek.net
+  - DOMAIN-SUFFIX,nnmclub.to
+  - DOMAIN-SUFFIX,bt4gprx.com
+  - DOMAIN-SUFFIX,btdig.com
+
+  # ─── Midjourney (веб-клиент и CDN) ────────────────
+  - DOMAIN-SUFFIX,midjourney.com          # www / api / app.*
+  - DOMAIN-SUFFIX,cdn.midjourney.com      # изображения
+
+  # ─── Discord (нужен Midjourney-боту) ─────────────
+  - DOMAIN-SUFFIX,discord.com
+  - DOMAIN-SUFFIX,discordapp.com
+  - DOMAIN-SUFFIX,discord.gg
+  - DOMAIN-SUFFIX,discordmedia.net
+  - DOMAIN-SUFFIX,cdn.discordapp.com
