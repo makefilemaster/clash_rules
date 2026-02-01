@@ -1,112 +1,110 @@
 payload:
-  # AI / OpenAI / Anthropic / Microsoft Copilot
-  - +.ai.azure.com
-  - +.anthropic.com
-  - +.auth0.com
-  - +.bard.google.com
-  - +.chatgpt.com
-  - +.claude.ai
-  - +.client-api.arkoselabs.com
-  - +.copilot.cloud.microsoft
-  - +.copilot.microsoft.com
-  - +.events.statsigapi.net
-  - +.featuregates.org
-  - +.gemini.google.com
-  - +.grazie.ai
-  - +.grazie.aws.intellij.net
-  - +.identrust.com
-  - +.intercom.io
-  - +.intercomcdn.com
-  - +.makersuite.google.com
-  - +.meta.ai
-  - +.mistral.ai
-  - +.oaistatic.com
-  - +.oaiusercontent.com
-  - +.openai.com
-  - +.openaiapi-site.azureedge.net
-  - +.perplexity.ai
-  - +.sora.com
-  - +.sentry.io
-  - +.stripe.com
-  - +.challenges.cloudflare.com
+  # AI / OpenAI
+  - ai.azure.com
+  - anthropic.com
+  - auth0.com
+  - bard.google.com
+  - chatgpt.com
+  - claude.ai
+  - client-api.arkoselabs.com
+  - copilot.cloud.microsoft
+  - copilot.microsoft.com
+  - events.statsigapi.net
+  - featuregates.org
+  - gemini.google.com
+  - grazie.ai
+  - grazie.aws.intellij.net
+  - identrust.com
+  - intercom.io
+  - intercomcdn.com
+  - makersuite.google.com
+  - meta.ai
+  - mistral.ai
+  - oaistatic.com
+  - oaiusercontent.com
+  - openai.com
+  - openaiapi-site.azureedge.net
+  - perplexity.ai
+  - sora.com
+  - sentry.io
+  - stripe.com
+  - challenges.cloudflare.com
 
   # Pornhub
-  - +.pornhub.com
-  - +.pornhubpremium.com
-  - +.phncdn.com
-  - +.phprcdn.com
+  - pornhub.com
+  - pornhubpremium.com
+  - phncdn.com
+  - phprcdn.com
 
-  # YouTube / YouTube Music (домены + CDN)
-  - +.youtube.com
-  - +.youtu.be
-  - +.youtube-nocookie.com
-  - +.youtubei.googleapis.com
-  - +.ytimg.com
-  - +.ggpht.com
-  - +.googlevideo.com
-  - +.gvt1.com
-  - +.video.google.com
+  # YouTube
+  - youtube.com
+  - youtu.be
+  - youtube-nocookie.com
+  - ytimg.com
+  - ggpht.com
+  - googlevideo.com
+  - gvt1.com
+  - video.google.com
+  - youtubei.googleapis.com
 
-  # Instagram / Meta (домены)
-  - +.instagram.com
-  - +.cdninstagram.com
-  - +.instagr.am
-  - +.ig.me
-  - +.igsonar.com
-  - +.facebook.com
-  - +.fbcdn.net
-  - +.mqtt-ig-p4.facebook.com
-  - +.z-p42-chat-e2ee-ig.facebook.com
-  - +.z-p42-chat-e2ee-ig-fallback.facebook.com
+  # Instagram / Meta
+  - instagram.com
+  - cdninstagram.com
+  - instagr.am
+  - ig.me
+  - igsonar.com
+  - facebook.com
+  - fbcdn.net
+  - mqtt-ig-p4.facebook.com
+  - z-p42-chat-e2ee-ig.facebook.com
+  - z-p42-chat-e2ee-ig-fallback.facebook.com
 
-  # Google (общее + сервисы)
-  - +.google.com
-  - +.googleapis.com
-  - +.googleusercontent.com
-  - +.gstatic.com
-  - +.googlemail.com
-  - +.withgoogle.com
-  - +.1e100.net
+  # Google
+  - google.com
+  - googleapis.com
+  - googleusercontent.com
+  - gstatic.com
+  - googlemail.com
+  - withgoogle.com
+  - 1e100.net
+  - gvt2.com
+  - gvt3.com
 
-  # Google CDN / media
-  - +.gvt2.com
-  - +.gvt3.com
-
-  # Android / Google Play / Push
-  - +.android.com
-  - +.play.googleapis.com
-  - +.mtalk.google.com
-  - +.mtalk4.google.com
-  - +.device-provisioning.googleapis.com
-  - +.firebaseinstallations.googleapis.com
+  # Android / Play / Push
+  - android.com
+  - play.googleapis.com
+  - mtalk.google.com
+  - mtalk4.google.com
+  - device-provisioning.googleapis.com
+  - firebaseinstallations.googleapis.com
 
   # Chrome / Cast / App Engine
-  - +.chromecast.com
-  - +.chromium.org
-  - +.appspot.com
+  - chromecast.com
+  - chromium.org
+  - appspot.com
 
-  # Ads / Analytics (если хочешь через VPN — оставил как было)
-  - +.googlesyndication.com
-  - +.googleadservices.com
-  - +.doubleclick.net
-  - +.googletagmanager.com
-  - +.googletagservices.com
-  - +.google-analytics.com
+  # Ads / Analytics
+  - googlesyndication.com
+  - googleadservices.com
+  - doubleclick.net
+  - googletagmanager.com
+  - googletagservices.com
+  - google-analytics.com
 
-  # Torrent-площадки
-  - +.rutracker.org
-  - +.tapochek.net
-  - +.nnmclub.to
-  - +.bt4gprx.com
-  - +.btdig.com
+  # Torrents
+  - rutracker.org
+  - tapochek.net
+  - nnmclub.to
+  - bt4gprx.com
+  - btdig.com
 
   # Midjourney
-  - +.midjourney.com
-  - +.cdn.midjourney.com
+  - midjourney.com
+  - cdn.midjourney.com
 
   # Discord
-  - +.discord.com
-  - +.discordapp.com
-  - +.discord.gg
-  - +.discordmedia.net
-  - +.cdn.discordapp.com
+  - discord.com
+  - discordapp.com
+  - discord.gg
+  - discordmedia.net
+  - cdn.discordapp.com
