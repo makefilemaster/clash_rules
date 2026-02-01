@@ -220,14 +220,14 @@ payload:
   - DOMAIN-SUFFIX,ytimg.com
 
   # Instagram  (через, например, PROXY-GROUP = GLOBAL/Media/…)
-  - DOMAIN-KEYWORD,instagram,UFOVPN         #  охватывает graph.instagram.com и др.
-  - DOMAIN-SUFFIX,instagram.com,UFOVPN    #  основной сайт + API
-  - DOMAIN-SUFFIX,instagram.com,UFOVPN        #  основной сайт + API
-  - DOMAIN-SUFFIX,instagram.com,UFOVPN    #  основной сайт + API
-  - DOMAIN-SUFFIX,cdninstagram.com,UFOVPN     #  фотографии / видеоконтент (scontent.*)
-  - DOMAIN-SUFFIX,instagr.am,UFOVPN           #  старый короткий домен
-  - DOMAIN-SUFFIX,ig.me,UFOVPN                #  короткие ссылки в DM
-  - DOMAIN-SUFFIX,igsonar.com,UFOVPN          #  телеметрия/пуш-серверы
+  - DOMAIN-KEYWORD,instagram           #  охватывает graph.instagram.com и др.
+  - DOMAIN-SUFFIX,instagram.com        #  основной сайт + API
+  - DOMAIN-SUFFIX,instagram.com        #  основной сайт + API
+  - DOMAIN-SUFFIX,instagram.com        #  основной сайт + API
+  - DOMAIN-SUFFIX,cdninstagram.com     #  фотографии / видеоконтент (scontent.*)
+  - DOMAIN-SUFFIX,instagr.am           #  старый короткий домен
+  - DOMAIN-SUFFIX,ig.me                #  короткие ссылки в DM
+  - DOMAIN-SUFFIX,igsonar.com          #  телеметрия/пуш-серверы
 
   # Instagram-чат и push-MQTT (живут в Facebook-зоне, но к IG-функциям)
   - DOMAIN-SUFFIX,z-p42-chat-e2ee-ig.facebook.com
