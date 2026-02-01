@@ -1,4 +1,56 @@
 payload:
+  # AI
+  - DOMAIN-SUFFIX,ai.azure.com
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,bard.google.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,copilot.cloud.microsoft
+  - DOMAIN-SUFFIX,copilot.microsoft.com
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,grazie.ai
+  - DOMAIN-SUFFIX,grazie.aws.intellij.net
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,makersuite.google.com
+  - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,mistral.ai
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,sora.com
+  # OpenAi
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,stripe.com
+  # Pornhub
+  - DOMAIN-SUFFIX,phncdn.com
+  - DOMAIN-SUFFIX,phprcdn.com
+  - DOMAIN-SUFFIX,pornhub.com
+  - DOMAIN-SUFFIX,pornhubpremium.com
+  # > Youtube Music
+  - PROCESS-NAME,com.google.android.apps.youtube.music
+  - PROCESS-NAME,com.google.android.youtube.tvmusic
+  # > Youtube
   - PROCESS-NAME,com.google.android.youtube
   - PROCESS-NAME,com.google.android.youtube.tv
   - DOMAIN-SUFFIX,googlevideo.com
@@ -166,3 +218,72 @@ payload:
   - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,yt3.ggpht.com
   - DOMAIN-SUFFIX,ytimg.com
+
+  # Instagram  (через, например, PROXY-GROUP = GLOBAL/Media/…)
+  - DOMAIN-KEYWORD,instagram          #  охватывает graph.instagram.com и др.
+  - DOMAIN-SUFFIX,instagram.com       #  основной сайт + API
+  - DOMAIN-SUFFIX,cdninstagram.com    #  фотографии / видеоконтент (scontent.*)
+  - DOMAIN-SUFFIX,instagr.am          #  старый короткий домен
+  - DOMAIN-SUFFIX,ig.me               #  короткие ссылки в DM
+  - DOMAIN-SUFFIX,igsonar.com         #  телеметрия/пуш-серверы
+
+  # Instagram-чат и push-MQTT (живут в Facebook-зоне, но к IG-функциям)
+  - DOMAIN-SUFFIX,z-p42-chat-e2ee-ig.facebook.com
+  - DOMAIN-SUFFIX,z-p42-chat-e2ee-ig-fallback.facebook.com
+  - DOMAIN-SUFFIX,mqtt-ig-p4.facebook.com
+
+  - DOMAIN-KEYWORD,google           # ловит все google.* TLD (google.fr, google.ru…)
+  - DOMAIN-SUFFIX,google.com
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,ggpht.com
+  - DOMAIN-SUFFIX,googlemail.com
+  - DOMAIN-SUFFIX,withgoogle.com
+  - DOMAIN-SUFFIX,1e100.net         # серверы GFE/Front-end
+
+  # ─── CDN и медиа Google ──────────
+  - DOMAIN-SUFFIX,gvt1.com
+  - DOMAIN-SUFFIX,gvt2.com
+  - DOMAIN-SUFFIX,gvt3.com
+  - DOMAIN-SUFFIX,googlevideo.com   # Play Movies, WebRTC-media
+
+  # ─── Android / Google Play ───────
+  - DOMAIN-SUFFIX,android.com
+  - DOMAIN-SUFFIX,play.googleapis.com
+  - DOMAIN-SUFFIX,mtalk.google.com          # FCM push
+  - DOMAIN-SUFFIX,mtalk4.google.com
+  - DOMAIN-SUFFIX,device-provisioning.googleapis.com
+  - DOMAIN-SUFFIX,firebaseinstallations.googleapis.com
+
+  # ─── Chrome / Cast / App Engine ──
+  - DOMAIN-SUFFIX,chromecast.com
+  - DOMAIN-SUFFIX,chromium.org
+  - DOMAIN-SUFFIX,appspot.com
+
+  # ─── Реклама и телеметрия (опционально) ─
+  - DOMAIN-SUFFIX,googlesyndication.com
+  - DOMAIN-SUFFIX,googleadservices.com
+  - DOMAIN-SUFFIX,doubleclick.net
+  - DOMAIN-SUFFIX,googletagmanager.com
+  - DOMAIN-SUFFIX,googletagservices.com
+  - DOMAIN-SUFFIX,google-analytics.com
+
+  # ─── Torrent-площадки ─────────────────────────────
+  - DOMAIN-SUFFIX,rutracker.org
+  - DOMAIN-SUFFIX,tapochek.net
+  - DOMAIN-SUFFIX,nnmclub.to
+  - DOMAIN-SUFFIX,bt4gprx.com
+  - DOMAIN-SUFFIX,btdig.com
+
+  # ─── Midjourney (веб-клиент и CDN) ────────────────
+  - DOMAIN-SUFFIX,midjourney.com          # www / api / app.*
+  - DOMAIN-SUFFIX,cdn.midjourney.com      # изображения
+
+  # ─── Discord (нужен Midjourney-боту) ─────────────
+  - DOMAIN-SUFFIX,discord.com
+  - DOMAIN-SUFFIX,discordapp.com
+  - DOMAIN-SUFFIX,discord.gg
+  - DOMAIN-SUFFIX,discordmedia.net
+  - DOMAIN-SUFFIX,cdn.discordapp.com
+
