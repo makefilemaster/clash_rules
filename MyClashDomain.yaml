@@ -372,3 +372,6 @@ payload:
   - IP-ASN,59930,no-resolve
   - IP-ASN,62014,no-resolve
   - IP-ASN,62041,no-resolve
+
+
+  - DOMAIN-SUFFIX,speedtest.net
