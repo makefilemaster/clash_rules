@@ -373,5 +373,20 @@ payload:
   - IP-ASN,62014,no-resolve
   - IP-ASN,62041,no-resolve
 
+  # ─── Autodesk ─────────────
+  - DOMAIN-SUFFIX,autodesk.com
+  - DOMAIN-SUFFIX,autodesk.net
+  - DOMAIN-SUFFIX,autodesk.io
+  - DOMAIN-SUFFIX,autodesk360.com
+  - DOMAIN-SUFFIX,adskcloud.com
+  - DOMAIN-SUFFIX,adskcloud.net
+  - DOMAIN-SUFFIX,adskflex.com
+  - DOMAIN-SUFFIX,autocad.com
+  - DOMAIN-SUFFIX,fusion360.com
+  - DOMAIN-SUFFIX,arnoldrenderer.com
+  - DOMAIN-SUFFIX,akamaiedge.net
+  - DOMAIN-SUFFIX,akamaized.net
+  - DOMAIN-SUFFIX,edgesuite.net
+ 
 
   - DOMAIN-SUFFIX,speedtest.net
