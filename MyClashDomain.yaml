@@ -387,6 +387,24 @@ payload:
   - DOMAIN-SUFFIX,akamaiedge.net
   - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-SUFFIX,edgesuite.net
+
+  # ─── LinkedIn ─────────────
+  - DOMAIN-SUFFIX,linkedin.com
+  - DOMAIN-SUFFIX,licdn.com
+  - DOMAIN-SUFFIX,linkedin.cn
+  - DOMAIN-SUFFIX,licdn.net
+  - DOMAIN-SUFFIX,linkedinstatic.com
+  - DOMAIN-SUFFIX,lnkd.in
+  - DOMAIN-SUFFIX,linkedinusercontent.com
+  - DOMAIN-SUFFIX,api.linkedin.com
+  - DOMAIN-SUFFIX,media.linkedin.com
+  - DOMAIN-SUFFIX,ads.linkedin.com
+  - DOMAIN-SUFFIX,analytics.linkedin.com
+  - DOMAIN-SUFFIX,live.com
+  - DOMAIN-SUFFIX,microsoft.com
+  - DOMAIN-SUFFIX,msauth.net
+  - DOMAIN-SUFFIX,msftauth.net
+  - DOMAIN-SUFFIX,azureedge.net
  
 
   - DOMAIN-SUFFIX,speedtest.net
