@@ -1,37 +1,37 @@
 payload:
   #PS5
-  - DOMAIN-SUFFIX,playstation.com
-  - DOMAIN-SUFFIX,playstation.net
-  - DOMAIN-SUFFIX,playstation.org
-  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
-  - DOMAIN-SUFFIX,psnprofiles.com
-  - DOMAIN-SUFFIX,psnawp.com
-  - DOMAIN-SUFFIX,api.playstation.com
-  - DOMAIN-SUFFIX,store.playstation.com
-  - DOMAIN-SUFFIX,my.playstation.com
-  - DOMAIN-SUFFIX,auth.api.sonyentertainmentnetwork.com
-  - DOMAIN-SUFFIX,auth.np.ac.playstation.net
-  - DOMAIN-SUFFIX,gateway.playstation.com
-  - DOMAIN-SUFFIX,np.community.playstation.net
-  - DOMAIN-SUFFIX,tmdb.np.dl.playstation.net
-  - DOMAIN-SUFFIX,gs2.ww.prod.dl.playstation.net
-  - DOMAIN-SUFFIX,gs-sec.ww.np.dl.playstation.net
-  - DOMAIN-SUFFIX,zeus.dl.playstation.net
-  - DOMAIN-SUFFIX,dl.playstation.net
-  - DOMAIN-SUFFIX,livearea.playstation.net
-  - DOMAIN-SUFFIX,static-resource.np.community.playstation.net
-  - DOMAIN-SUFFIX,social.playstation.com
-  - DOMAIN-SUFFIX,transact.playstation.com
-  - DOMAIN-SUFFIX,wallets.playstation.com
-  - DOMAIN-SUFFIX,account.sony.com
-  - DOMAIN-SUFFIX,id.sonyentertainmentnetwork.com
-  - DOMAIN-SUFFIX,sony.com
-  - DOMAIN-SUFFIX,sony.net
-  - DOMAIN-SUFFIX,akadns.net
-  - DOMAIN-SUFFIX,akamaized.net
-  - DOMAIN-SUFFIX,edgekey.net
-  - DOMAIN-SUFFIX,edgesuite.net
-  - DOMAIN-SUFFIX,auth0.com
+ # - DOMAIN-SUFFIX,playstation.com
+ # - DOMAIN-SUFFIX,playstation.net
+ # - DOMAIN-SUFFIX,playstation.org
+ # - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+ # - DOMAIN-SUFFIX,psnprofiles.com
+ # - DOMAIN-SUFFIX,psnawp.com
+ # - DOMAIN-SUFFIX,api.playstation.com
+ # - DOMAIN-SUFFIX,store.playstation.com
+ # - DOMAIN-SUFFIX,my.playstation.com
+ # - DOMAIN-SUFFIX,auth.api.sonyentertainmentnetwork.com
+ # - DOMAIN-SUFFIX,auth.np.ac.playstation.net
+ # - DOMAIN-SUFFIX,gateway.playstation.com
+ # - DOMAIN-SUFFIX,np.community.playstation.net
+ # - DOMAIN-SUFFIX,tmdb.np.dl.playstation.net
+ # - DOMAIN-SUFFIX,gs2.ww.prod.dl.playstation.net
+ # - DOMAIN-SUFFIX,gs-sec.ww.np.dl.playstation.net
+ # - DOMAIN-SUFFIX,zeus.dl.playstation.net
+ # - DOMAIN-SUFFIX,dl.playstation.net
+ # - DOMAIN-SUFFIX,livearea.playstation.net
+ # - DOMAIN-SUFFIX,static-resource.np.community.playstation.net
+ # - DOMAIN-SUFFIX,social.playstation.com
+ # - DOMAIN-SUFFIX,transact.playstation.com
+ # - DOMAIN-SUFFIX,wallets.playstation.com
+ # - DOMAIN-SUFFIX,account.sony.com
+ # - DOMAIN-SUFFIX,id.sonyentertainmentnetwork.com
+ # - DOMAIN-SUFFIX,sony.com
+ # - DOMAIN-SUFFIX,sony.net
+ # - DOMAIN-SUFFIX,akadns.net
+ # - DOMAIN-SUFFIX,akamaized.net
+ # - DOMAIN-SUFFIX,edgekey.net
+ # - DOMAIN-SUFFIX,edgesuite.net
+ # - DOMAIN-SUFFIX,auth0.com
   # AI
   - DOMAIN-SUFFIX,ai.azure.com
   - DOMAIN-SUFFIX,anthropic.com
