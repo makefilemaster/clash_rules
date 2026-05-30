@@ -33,6 +33,29 @@ payload:
 #  - DOMAIN-SUFFIX,edgekey.net
 #  - DOMAIN-SUFFIX,edgesuite.net
 #  - DOMAIN-SUFFIX,auth0.com
+#Siemens
+  - DOMAIN-SUFFIX,siemens.com
+  - DOMAIN-SUFFIX,sw.siemens.com
+  - DOMAIN-SUFFIX,sws.siemens.com
+  - DOMAIN-SUFFIX,plm.sw.siemens.com
+  - DOMAIN-SUFFIX,support.sw.siemens.com
+  - DOMAIN-SUFFIX,trials.sw.siemens.com
+  - DOMAIN-SUFFIX,resources.sw.siemens.com
+  - DOMAIN-SUFFIX,community.sw.siemens.com
+  - DOMAIN-SUFFIX,blogs.sw.siemens.com
+  - DOMAIN-SUFFIX,webinars.sw.siemens.com
+  - DOMAIN-SUFFIX,training.plm.automation.siemens.com
+  - DOMAIN-SUFFIX,login.siemens.com
+  - DOMAIN-SUFFIX,sp.login.siemens.com
+  - DOMAIN-SUFFIX,uss.login.siemens.com
+  - DOMAIN-SUFFIX,cdn.login.siemens.com
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,eu.auth0.com
+  - DOMAIN-SUFFIX,cdn.auth0.com
+  - DOMAIN-SUFFIX,cdn.eu.auth0.com
+  - DOMAIN-SUFFIX,siemens-00090.eu.auth0.com
+ - DOMAIN-SUFFIX,xcelerator.siemens.com
+
   # AI
   - DOMAIN-SUFFIX,ai.azure.com
   - DOMAIN-SUFFIX,anthropic.com
