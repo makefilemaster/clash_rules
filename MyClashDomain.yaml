@@ -33,6 +33,7 @@ payload:
 #  - DOMAIN-SUFFIX,edgekey.net
 #  - DOMAIN-SUFFIX,edgesuite.net
 #  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,*.playphrase.me
 #Siemens
   - DOMAIN-SUFFIX,siemens.com
   - DOMAIN-SUFFIX,sw.siemens.com
