@@ -1,5 +1,79 @@
 payload:
-  - DOMAIN-SUFFIX,ipip.net
+  # Adobe / Creative Cloud / Adobe ID / загрузки / обновления
+  - DOMAIN-SUFFIX,adobe.com
+  - DOMAIN-SUFFIX,adobe.net
+  - DOMAIN-SUFFIX,adobe.io
+  - DOMAIN-SUFFIX,adobelogin.com
+  - DOMAIN-SUFFIX,adobecc.com
+  - DOMAIN-SUFFIX,adobeccstatic.com
+  - DOMAIN-SUFFIX,adobeexchange.com
+  - DOMAIN-SUFFIX,adobejanus.com
+  - DOMAIN-SUFFIX,adobesc.com
+  - DOMAIN-SUFFIX,adobess.com
+  - DOMAIN-SUFFIX,adobedc.net
+  - DOMAIN-SUFFIX,adobe-identity.com
+  - DOMAIN-SUFFIX,adobeims.com
+  - DOMAIN-SUFFIX,services.adobe.com
+  - DOMAIN-SUFFIX,licenses.adobe.com
+  - DOMAIN-SUFFIX,activate.adobe.com
+  - DOMAIN-SUFFIX,adobe.activate.com
+  - DOMAIN-SUFFIX,ccmdl.adobe.com
+  - DOMAIN-SUFFIX,ccmdls.adobe.com
+  - DOMAIN-SUFFIX,swupmf.adobe.com
+  - DOMAIN-SUFFIX,swupdl.adobe.com
+  - DOMAIN-SUFFIX,prod-rel-ffc-ccm.oobesaas.adobe.com
+  - DOMAIN-SUFFIX,oobesaas.adobe.com
+  - DOMAIN-SUFFIX,assets.adobe.com
+  - DOMAIN-SUFFIX,creativecloud.adobe.com
+  - DOMAIN-SUFFIX,helpx.adobe.com
+  - DOMAIN-SUFFIX,adminconsole.adobe.com
+  - DOMAIN-SUFFIX,account.adobe.com
+  - DOMAIN-SUFFIX,accounts.adobe.com
+  - DOMAIN-SUFFIX,auth.services.adobe.com
+  - DOMAIN-SUFFIX,ims-na1.adobelogin.com
+  - DOMAIN-SUFFIX,adobeid-na1.services.adobe.com
+  - DOMAIN-SUFFIX,na1r.services.adobe.com
+  - DOMAIN-SUFFIX,na1mbls.licenses.adobe.com
+  - DOMAIN-SUFFIX,lm.licenses.adobe.com
+  # Adobe Fonts / Typekit
+  - DOMAIN-SUFFIX,typekit.com
+  - DOMAIN-SUFFIX,typekit.net
+  - DOMAIN-SUFFIX,use.typekit.net
+  - DOMAIN-SUFFIX,p.typekit.net
+  - DOMAIN-SUFFIX,data.typekit.net
+  - DOMAIN-SUFFIX,state.typekit.net
+  - DOMAIN-SUFFIX,polka.typekit.com
+  - DOMAIN-SUFFIX,api.typekit.com
+  # Adobe Stock / Behance / Portfolio / Firefly / Express / Document Cloud
+  - DOMAIN-SUFFIX,stock.adobe.com
+  - DOMAIN-SUFFIX,behance.net
+  - DOMAIN-SUFFIX,behance.com
+  - DOMAIN-SUFFIX,adobeportfolio.com
+  - DOMAIN-SUFFIX,myportfolio.com
+  - DOMAIN-SUFFIX,firefly.adobe.com
+  - DOMAIN-SUFFIX,express.adobe.com
+  - DOMAIN-SUFFIX,acrobat.adobe.com
+  - DOMAIN-SUFFIX,documentcloud.adobe.com
+  - DOMAIN-SUFFIX,acrobatservices.adobe.com
+  # Adobe analytics / telemetry / product guidance — иногда без них UI работает криво
+  - DOMAIN-SUFFIX,adobedtm.com
+  - DOMAIN-SUFFIX,demdex.net
+  - DOMAIN-SUFFIX,omtrdc.net
+  - DOMAIN-SUFFIX,everesttech.net
+  - DOMAIN-SUFFIX,adobeexperienceplatform.com
+  - DOMAIN-SUFFIX,experience.adobe.com
+  - DOMAIN-SUFFIX,experiencecloud.adobe.com
+  - DOMAIN-SUFFIX,esp.aptrinsic.com
+  - DOMAIN-SUFFIX,esp-m.aptrinsic.com
+  # Часто используемые внешние CDN/капчи/авторизация, которые могут понадобиться Adobe
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,akamaihd.net
+  - DOMAIN-SUFFIX,edgesuite.net
+  - DOMAIN-SUFFIX,edgekey.net
+  - DOMAIN-SUFFIX,fastly.net
+
+  
   #PS5
 # - DOMAIN-SUFFIX,playstation.com
 #  - DOMAIN-SUFFIX,playstation.net
@@ -33,7 +107,7 @@ payload:
 #  - DOMAIN-SUFFIX,edgekey.net
 #  - DOMAIN-SUFFIX,edgesuite.net
 #  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,*.playphrase.me
+  - DOMAIN-SUFFIX,playphrase.me
 #Siemens
   - DOMAIN-SUFFIX,siemens.com
   - DOMAIN-SUFFIX,sw.siemens.com
@@ -101,10 +175,23 @@ payload:
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,stripe.com
   # Pornhub
-  - DOMAIN-SUFFIX,phncdn.com
-  - DOMAIN-SUFFIX,phprcdn.com
   - DOMAIN-SUFFIX,pornhub.com
   - DOMAIN-SUFFIX,pornhubpremium.com
+  - DOMAIN-SUFFIX,pornhub.org
+  - DOMAIN-SUFFIX,pornhub.net
+  - DOMAIN-SUFFIX,pornhubapparel.com
+  - DOMAIN-SUFFIX,pornhub-deutsch.net
+  - DOMAIN-SUFFIX,pornhubpremium.com
+  - DOMAIN-SUFFIX,pornhubpremium.org
+  # Pornhub CDN / media / static
+  - DOMAIN-SUFFIX,phncdn.com
+  - DOMAIN-SUFFIX,phprcdn.com
+  - DOMAIN-SUFFIX,trafficjunky.net
+  - DOMAIN-SUFFIX,pornhubpic.com
+  - DOMAIN-SUFFIX,pornhubthbh7ap3u.onion
+  # Частые опечатки/редиректы из community rules
+  - DOMAIN-SUFFIX,porhub.com
+  - DOMAIN-SUFFIX,porngub.com
   # > Youtube Music
   - PROCESS-NAME,com.google.android.apps.youtube.music
   - PROCESS-NAME,com.google.android.youtube.tvmusic
