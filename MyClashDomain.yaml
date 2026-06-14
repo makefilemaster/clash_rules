@@ -1,5 +1,6 @@
 payload:
   - DOMAIN-SUFFIX,wavespeed.ai
+  - DOMAIN-SUFFIX,cloudfront.net
   # Adobe / Creative Cloud / Adobe ID / загрузки / обновления
   - DOMAIN-SUFFIX,adobe.com
   - DOMAIN-SUFFIX,adobe.net
