@@ -480,26 +480,6 @@
         "2a0a:f280::/29"
       ]
     }
-  ],
-  "_ignored_from_clash_for_server": {
-    "process_name": [
-      "com.google.android.apps.youtube.music",
-      "com.google.android.youtube.tvmusic",
-      "com.google.android.youtube",
-      "com.google.android.youtube.tv",
-      "Telegram.exe",
-      "nekox.messenger",
-      "org.telegram.messenger",
-      "telegram-desktop",
-      "tw.nekomimi.nekogram",
-      "xyz.nextalone.nagram"
-    ],
-    "ip_asn": [
-      211157,
-      44907,
-      59930,
-      62014,
-      62041
-    ]
+  ]
   }
 }
