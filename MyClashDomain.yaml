@@ -1,4 +1,5 @@
 payload:
+  # Cursor / Claude / Anthropic
   - DOMAIN-SUFFIX,cursor.com
   - DOMAIN-SUFFIX,api.cursor.com
   - DOMAIN-SUFFIX,api2.cursor.sh
@@ -7,14 +8,18 @@ payload:
   - DOMAIN-SUFFIX,download.cursor.sh
   - DOMAIN-SUFFIX,marketplace.cursorapi.com
   - DOMAIN-SUFFIX,repo42.cursor.sh
+  - DOMAIN-SUFFIX,cursorapi.com
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,api.anthropic.com
   - DOMAIN-SUFFIX,console.anthropic.com
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claude.com
+
+  # Wavespeed
   - DOMAIN-SUFFIX,wavespeed.ai
   - DOMAIN-SUFFIX,cloudfront.net
-  # Adobe / Creative Cloud / Adobe ID / загрузки / обновления
+
+  # Adobe / Creative Cloud / Adobe ID / downloads / updates
   - DOMAIN-SUFFIX,adobe.com
   - DOMAIN-SUFFIX,adobe.net
   - DOMAIN-SUFFIX,adobe.io
@@ -50,6 +55,7 @@ payload:
   - DOMAIN-SUFFIX,na1r.services.adobe.com
   - DOMAIN-SUFFIX,na1mbls.licenses.adobe.com
   - DOMAIN-SUFFIX,lm.licenses.adobe.com
+
   # Adobe Fonts / Typekit
   - DOMAIN-SUFFIX,typekit.com
   - DOMAIN-SUFFIX,typekit.net
@@ -59,6 +65,7 @@ payload:
   - DOMAIN-SUFFIX,state.typekit.net
   - DOMAIN-SUFFIX,polka.typekit.com
   - DOMAIN-SUFFIX,api.typekit.com
+
   # Adobe Stock / Behance / Portfolio / Firefly / Express / Document Cloud
   - DOMAIN-SUFFIX,stock.adobe.com
   - DOMAIN-SUFFIX,behance.net
@@ -70,7 +77,8 @@ payload:
   - DOMAIN-SUFFIX,acrobat.adobe.com
   - DOMAIN-SUFFIX,documentcloud.adobe.com
   - DOMAIN-SUFFIX,acrobatservices.adobe.com
-  # Adobe analytics / telemetry / product guidance — иногда без них UI работает криво
+
+  # Adobe analytics / telemetry / product guidance
   - DOMAIN-SUFFIX,adobedtm.com
   - DOMAIN-SUFFIX,demdex.net
   - DOMAIN-SUFFIX,omtrdc.net
@@ -80,7 +88,8 @@ payload:
   - DOMAIN-SUFFIX,experiencecloud.adobe.com
   - DOMAIN-SUFFIX,esp.aptrinsic.com
   - DOMAIN-SUFFIX,esp-m.aptrinsic.com
-  # Часто используемые внешние CDN/капчи/авторизация, которые могут понадобиться Adobe
+
+  # Shared CDN / CAPTCHA / auth
   - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-SUFFIX,akamaihd.net
@@ -88,42 +97,40 @@ payload:
   - DOMAIN-SUFFIX,edgekey.net
   - DOMAIN-SUFFIX,fastly.net
 
-  
-  #PS5
-# - DOMAIN-SUFFIX,playstation.com
-#  - DOMAIN-SUFFIX,playstation.net
-#  - DOMAIN-SUFFIX,playstation.org
-#  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
-#  - DOMAIN-SUFFIX,psnprofiles.com
-#  - DOMAIN-SUFFIX,psnawp.com
-#  - DOMAIN-SUFFIX,api.playstation.com
-#  - DOMAIN-SUFFIX,store.playstation.com
-#  - DOMAIN-SUFFIX,my.playstation.com
-#  - DOMAIN-SUFFIX,auth.api.sonyentertainmentnetwork.com
-#  - DOMAIN-SUFFIX,auth.np.ac.playstation.net
-#  - DOMAIN-SUFFIX,gateway.playstation.com
-#  - DOMAIN-SUFFIX,np.community.playstation.net
-#  - DOMAIN-SUFFIX,tmdb.np.dl.playstation.net
-#  - DOMAIN-SUFFIX,gs2.ww.prod.dl.playstation.net
-#  - DOMAIN-SUFFIX,gs-sec.ww.np.dl.playstation.net
-#  - DOMAIN-SUFFIX,zeus.dl.playstation.net
-#  - DOMAIN-SUFFIX,dl.playstation.net
-#  - DOMAIN-SUFFIX,livearea.playstation.net
-#  - DOMAIN-SUFFIX,static-resource.np.community.playstation.net
-#  - DOMAIN-SUFFIX,social.playstation.com
-#  - DOMAIN-SUFFIX,transact.playstation.com
-#  - DOMAIN-SUFFIX,wallets.playstation.com
-#  - DOMAIN-SUFFIX,account.sony.com
-#  - DOMAIN-SUFFIX,id.sonyentertainmentnetwork.com
-#  - DOMAIN-SUFFIX,sony.com
-#  - DOMAIN-SUFFIX,sony.net
-#  - DOMAIN-SUFFIX,akadns.net
-#  - DOMAIN-SUFFIX,akamaized.net
-#  - DOMAIN-SUFFIX,edgekey.net
-#  - DOMAIN-SUFFIX,edgesuite.net
-#  - DOMAIN-SUFFIX,auth0.com
+  # PS5 / PlayStation (kept disabled as in your source file)
+  # - DOMAIN-SUFFIX,playstation.com
+  # - DOMAIN-SUFFIX,playstation.net
+  # - DOMAIN-SUFFIX,playstation.org
+  # - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+  # - DOMAIN-SUFFIX,psnprofiles.com
+  # - DOMAIN-SUFFIX,psnawp.com
+  # - DOMAIN-SUFFIX,api.playstation.com
+  # - DOMAIN-SUFFIX,store.playstation.com
+  # - DOMAIN-SUFFIX,my.playstation.com
+  # - DOMAIN-SUFFIX,auth.api.sonyentertainmentnetwork.com
+  # - DOMAIN-SUFFIX,auth.np.ac.playstation.net
+  # - DOMAIN-SUFFIX,gateway.playstation.com
+  # - DOMAIN-SUFFIX,np.community.playstation.net
+  # - DOMAIN-SUFFIX,tmdb.np.dl.playstation.net
+  # - DOMAIN-SUFFIX,gs2.ww.prod.dl.playstation.net
+  # - DOMAIN-SUFFIX,gs-sec.ww.np.dl.playstation.net
+  # - DOMAIN-SUFFIX,zeus.dl.playstation.net
+  # - DOMAIN-SUFFIX,dl.playstation.net
+  # - DOMAIN-SUFFIX,livearea.playstation.net
+  # - DOMAIN-SUFFIX,static-resource.np.community.playstation.net
+  # - DOMAIN-SUFFIX,social.playstation.com
+  # - DOMAIN-SUFFIX,transact.playstation.com
+  # - DOMAIN-SUFFIX,wallets.playstation.com
+  # - DOMAIN-SUFFIX,account.sony.com
+  # - DOMAIN-SUFFIX,id.sonyentertainmentnetwork.com
+  # - DOMAIN-SUFFIX,sony.com
+  # - DOMAIN-SUFFIX,sony.net
+  # - DOMAIN-SUFFIX,akadns.net
+  # - DOMAIN-SUFFIX,akamaized.net
+
   - DOMAIN-SUFFIX,playphrase.me
-#Siemens
+
+  # Siemens / NX
   - DOMAIN-SUFFIX,siemens.com
   - DOMAIN-SUFFIX,sw.siemens.com
   - DOMAIN-SUFFIX,sws.siemens.com
@@ -139,20 +146,16 @@ payload:
   - DOMAIN-SUFFIX,sp.login.siemens.com
   - DOMAIN-SUFFIX,uss.login.siemens.com
   - DOMAIN-SUFFIX,cdn.login.siemens.com
-  - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,eu.auth0.com
   - DOMAIN-SUFFIX,cdn.auth0.com
   - DOMAIN-SUFFIX,cdn.eu.auth0.com
   - DOMAIN-SUFFIX,siemens-00090.eu.auth0.com
- - DOMAIN-SUFFIX,xcelerator.siemens.com
+  - DOMAIN-SUFFIX,xcelerator.siemens.com
 
-  # AI
+  # AI services
   - DOMAIN-SUFFIX,ai.azure.com
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,client-api.arkoselabs.com
   - DOMAIN-SUFFIX,copilot.cloud.microsoft
   - DOMAIN-SUFFIX,copilot.microsoft.com
@@ -173,22 +176,9 @@ payload:
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN-SUFFIX,sora.com
-  # OpenAi
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,stripe.com
+
   # Pornhub
   - DOMAIN-SUFFIX,pornhub.com
   - DOMAIN-SUFFIX,pornhubpremium.com
@@ -196,205 +186,50 @@ payload:
   - DOMAIN-SUFFIX,pornhub.net
   - DOMAIN-SUFFIX,pornhubapparel.com
   - DOMAIN-SUFFIX,pornhub-deutsch.net
-  - DOMAIN-SUFFIX,pornhubpremium.com
   - DOMAIN-SUFFIX,pornhubpremium.org
-  # Pornhub CDN / media / static
   - DOMAIN-SUFFIX,phncdn.com
   - DOMAIN-SUFFIX,phprcdn.com
   - DOMAIN-SUFFIX,trafficjunky.net
   - DOMAIN-SUFFIX,pornhubpic.com
   - DOMAIN-SUFFIX,pornhubthbh7ap3u.onion
-  # Частые опечатки/редиректы из community rules
   - DOMAIN-SUFFIX,porhub.com
   - DOMAIN-SUFFIX,porngub.com
-  # > Youtube Music
+
+  # YouTube / YouTube Music
   - PROCESS-NAME,com.google.android.apps.youtube.music
   - PROCESS-NAME,com.google.android.youtube.tvmusic
-  # > Youtube
   - PROCESS-NAME,com.google.android.youtube
   - PROCESS-NAME,com.google.android.youtube.tv
   - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,video.google.com
   - DOMAIN-SUFFIX,youtu.be
-  - DOMAIN-SUFFIX,youtube.ae
-  - DOMAIN-SUFFIX,youtube.al
-  - DOMAIN-SUFFIX,youtube.am
-  - DOMAIN-SUFFIX,youtube.at
-  - DOMAIN-SUFFIX,youtube.az
-  - DOMAIN-SUFFIX,youtube.ba
-  - DOMAIN-SUFFIX,youtube.be
-  - DOMAIN-SUFFIX,youtube.bg
-  - DOMAIN-SUFFIX,youtube.bh
-  - DOMAIN-SUFFIX,youtube.bo
-  - DOMAIN-SUFFIX,youtube.by
-  - DOMAIN-SUFFIX,youtube.ca
-  - DOMAIN-SUFFIX,youtube.cat
-  - DOMAIN-SUFFIX,youtube.ch
-  - DOMAIN-SUFFIX,youtube.cl
-  - DOMAIN-SUFFIX,youtube.co
-  - DOMAIN-SUFFIX,youtube.co.ae
-  - DOMAIN-SUFFIX,youtube.co.at
-  - DOMAIN-SUFFIX,youtube.co.cr
-  - DOMAIN-SUFFIX,youtube.co.hu
-  - DOMAIN-SUFFIX,youtube.co.id
-  - DOMAIN-SUFFIX,youtube.co.il
-  - DOMAIN-SUFFIX,youtube.co.in
-  - DOMAIN-SUFFIX,youtube.co.jp
-  - DOMAIN-SUFFIX,youtube.co.ke
-  - DOMAIN-SUFFIX,youtube.co.kr
-  - DOMAIN-SUFFIX,youtube.co.ma
-  - DOMAIN-SUFFIX,youtube.co.nz
-  - DOMAIN-SUFFIX,youtube.co.th
-  - DOMAIN-SUFFIX,youtube.co.tz
-  - DOMAIN-SUFFIX,youtube.co.ug
-  - DOMAIN-SUFFIX,youtube.co.uk
-  - DOMAIN-SUFFIX,youtube.co.ve
-  - DOMAIN-SUFFIX,youtube.co.za
-  - DOMAIN-SUFFIX,youtube.co.zw
   - DOMAIN-SUFFIX,youtube.com
-  - DOMAIN-SUFFIX,youtube.com.ar
-  - DOMAIN-SUFFIX,youtube.com.au
-  - DOMAIN-SUFFIX,youtube.com.az
-  - DOMAIN-SUFFIX,youtube.com.bd
-  - DOMAIN-SUFFIX,youtube.com.bh
-  - DOMAIN-SUFFIX,youtube.com.bo
-  - DOMAIN-SUFFIX,youtube.com.br
-  - DOMAIN-SUFFIX,youtube.com.by
-  - DOMAIN-SUFFIX,youtube.com.co
-  - DOMAIN-SUFFIX,youtube.com.do
-  - DOMAIN-SUFFIX,youtube.com.ec
-  - DOMAIN-SUFFIX,youtube.com.ee
-  - DOMAIN-SUFFIX,youtube.com.eg
-  - DOMAIN-SUFFIX,youtube.com.es
-  - DOMAIN-SUFFIX,youtube.com.gh
-  - DOMAIN-SUFFIX,youtube.com.gr
-  - DOMAIN-SUFFIX,youtube.com.gt
-  - DOMAIN-SUFFIX,youtube.com.hk
-  - DOMAIN-SUFFIX,youtube.com.hn
-  - DOMAIN-SUFFIX,youtube.com.hr
-  - DOMAIN-SUFFIX,youtube.com.jm
-  - DOMAIN-SUFFIX,youtube.com.jo
-  - DOMAIN-SUFFIX,youtube.com.kw
-  - DOMAIN-SUFFIX,youtube.com.lb
-  - DOMAIN-SUFFIX,youtube.com.lv
-  - DOMAIN-SUFFIX,youtube.com.ly
-  - DOMAIN-SUFFIX,youtube.com.mk
-  - DOMAIN-SUFFIX,youtube.com.mt
-  - DOMAIN-SUFFIX,youtube.com.mx
-  - DOMAIN-SUFFIX,youtube.com.my
-  - DOMAIN-SUFFIX,youtube.com.ng
-  - DOMAIN-SUFFIX,youtube.com.ni
-  - DOMAIN-SUFFIX,youtube.com.om
-  - DOMAIN-SUFFIX,youtube.com.pa
-  - DOMAIN-SUFFIX,youtube.com.pe
-  - DOMAIN-SUFFIX,youtube.com.ph
-  - DOMAIN-SUFFIX,youtube.com.pk
-  - DOMAIN-SUFFIX,youtube.com.pt
-  - DOMAIN-SUFFIX,youtube.com.py
-  - DOMAIN-SUFFIX,youtube.com.qa
-  - DOMAIN-SUFFIX,youtube.com.ro
-  - DOMAIN-SUFFIX,youtube.com.sa
-  - DOMAIN-SUFFIX,youtube.com.sg
-  - DOMAIN-SUFFIX,youtube.com.sv
-  - DOMAIN-SUFFIX,youtube.com.tn
-  - DOMAIN-SUFFIX,youtube.com.tr
-  - DOMAIN-SUFFIX,youtube.com.tw
-  - DOMAIN-SUFFIX,youtube.com.ua
-  - DOMAIN-SUFFIX,youtube.com.uy
-  - DOMAIN-SUFFIX,youtube.com.ve
-  - DOMAIN-SUFFIX,youtube.cr
-  - DOMAIN-SUFFIX,youtube.cz
-  - DOMAIN-SUFFIX,youtube.de
-  - DOMAIN-SUFFIX,youtube.dk
-  - DOMAIN-SUFFIX,youtube.ee
-  - DOMAIN-SUFFIX,youtube.es
-  - DOMAIN-SUFFIX,youtube.fi
-  - DOMAIN-SUFFIX,youtube.fr
-  - DOMAIN-SUFFIX,youtube.ge
+  - DOMAIN-SUFFIX,youtube-nocookie.com
   - DOMAIN-SUFFIX,youtube.googleapis.com
-  - DOMAIN-SUFFIX,youtube.gr
-  - DOMAIN-SUFFIX,youtube.gt
-  - DOMAIN-SUFFIX,youtube.hk
-  - DOMAIN-SUFFIX,youtube.hr
-  - DOMAIN-SUFFIX,youtube.hu
-  - DOMAIN-SUFFIX,youtube.ie
-  - DOMAIN-SUFFIX,youtube.in
-  - DOMAIN-SUFFIX,youtube.iq
-  - DOMAIN-SUFFIX,youtube.is
-  - DOMAIN-SUFFIX,youtube.it
-  - DOMAIN-SUFFIX,youtube.jo
-  - DOMAIN-SUFFIX,youtube.jp
-  - DOMAIN-SUFFIX,youtube.kr
-  - DOMAIN-SUFFIX,youtube.kz
-  - DOMAIN-SUFFIX,youtube.la
-  - DOMAIN-SUFFIX,youtube.lk
-  - DOMAIN-SUFFIX,youtube.lt
-  - DOMAIN-SUFFIX,youtube.lu
-  - DOMAIN-SUFFIX,youtube.lv
-  - DOMAIN-SUFFIX,youtube.ly
-  - DOMAIN-SUFFIX,youtube.ma
-  - DOMAIN-SUFFIX,youtube.md
-  - DOMAIN-SUFFIX,youtube.me
-  - DOMAIN-SUFFIX,youtube.mk
-  - DOMAIN-SUFFIX,youtube.mn
-  - DOMAIN-SUFFIX,youtube.mx
-  - DOMAIN-SUFFIX,youtube.my
-  - DOMAIN-SUFFIX,youtube.ng
-  - DOMAIN-SUFFIX,youtube.ni
-  - DOMAIN-SUFFIX,youtube.nl
-  - DOMAIN-SUFFIX,youtube.no
-  - DOMAIN-SUFFIX,youtube.pa
-  - DOMAIN-SUFFIX,youtube.pe
-  - DOMAIN-SUFFIX,youtube.ph
-  - DOMAIN-SUFFIX,youtube.pk
-  - DOMAIN-SUFFIX,youtube.pl
-  - DOMAIN-SUFFIX,youtube.pr
-  - DOMAIN-SUFFIX,youtube.pt
-  - DOMAIN-SUFFIX,youtube.qa
-  - DOMAIN-SUFFIX,youtube.ro
-  - DOMAIN-SUFFIX,youtube.rs
-  - DOMAIN-SUFFIX,youtube.ru
-  - DOMAIN-SUFFIX,youtube.sa
-  - DOMAIN-SUFFIX,youtube.se
-  - DOMAIN-SUFFIX,youtube.sg
-  - DOMAIN-SUFFIX,youtube.si
-  - DOMAIN-SUFFIX,youtube.sk
-  - DOMAIN-SUFFIX,youtube.sn
-  - DOMAIN-SUFFIX,youtube.soy
-  - DOMAIN-SUFFIX,youtube.sv
-  - DOMAIN-SUFFIX,youtube.tn
-  - DOMAIN-SUFFIX,youtube.tv
-  - DOMAIN-SUFFIX,youtube.ua
-  - DOMAIN-SUFFIX,youtube.ug
-  - DOMAIN-SUFFIX,youtube.uy
-  - DOMAIN-SUFFIX,youtube.vn
-  - DOMAIN-SUFFIX,youtubeeducation.com
   - DOMAIN-SUFFIX,youtubeembeddedplayer.googleapis.com
   - DOMAIN-SUFFIX,youtubei.googleapis.com
   - DOMAIN-SUFFIX,youtubekids.com
-  - DOMAIN-SUFFIX,youtube-nocookie.com
+  - DOMAIN-SUFFIX,youtubeeducation.com
   - DOMAIN-SUFFIX,youtube-ui.l.google.com
   - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,yt3.ggpht.com
   - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN-KEYWORD,youtube
 
-  # Instagram  (через, например, PROXY-GROUP = GLOBAL/Media/…)
-  - DOMAIN-KEYWORD,instagram           #  охватывает graph.instagram.com и др.
-  - DOMAIN-SUFFIX,instagram.com        #  основной сайт + API
-  - DOMAIN-SUFFIX,instagram.com        #  основной сайт + API
-  - DOMAIN-SUFFIX,instagram.com        #  основной сайт + API
-  - DOMAIN-SUFFIX,cdninstagram.com     #  фотографии / видеоконтент (scontent.*)
-  - DOMAIN-SUFFIX,instagr.am           #  старый короткий домен
-  - DOMAIN-SUFFIX,ig.me                #  короткие ссылки в DM
-  - DOMAIN-SUFFIX,igsonar.com          #  телеметрия/пуш-серверы
-
-  # Instagram-чат и push-MQTT (живут в Facebook-зоне, но к IG-функциям)
+  # Instagram / Meta
+  - DOMAIN-KEYWORD,instagram
+  - DOMAIN-SUFFIX,instagram.com
+  - DOMAIN-SUFFIX,cdninstagram.com
+  - DOMAIN-SUFFIX,instagr.am
+  - DOMAIN-SUFFIX,ig.me
+  - DOMAIN-SUFFIX,igsonar.com
   - DOMAIN-SUFFIX,z-p42-chat-e2ee-ig.facebook.com
   - DOMAIN-SUFFIX,z-p42-chat-e2ee-ig-fallback.facebook.com
   - DOMAIN-SUFFIX,mqtt-ig-p4.facebook.com
 
-  - DOMAIN-KEYWORD,google           # ловит все google.* TLD (google.fr, google.ru…)
+  # Google common
+  - DOMAIN-KEYWORD,google
   - DOMAIN-SUFFIX,google.com
   - DOMAIN-SUFFIX,googleusercontent.com
   - DOMAIN-SUFFIX,googleapis.com
@@ -402,28 +237,18 @@ payload:
   - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,googlemail.com
   - DOMAIN-SUFFIX,withgoogle.com
-  - DOMAIN-SUFFIX,1e100.net         # серверы GFE/Front-end
-
-  # ─── CDN и медиа Google ──────────
-  - DOMAIN-SUFFIX,gvt1.com
+  - DOMAIN-SUFFIX,1e100.net
   - DOMAIN-SUFFIX,gvt2.com
   - DOMAIN-SUFFIX,gvt3.com
-  - DOMAIN-SUFFIX,googlevideo.com   # Play Movies, WebRTC-media
-
-  # ─── Android / Google Play ───────
   - DOMAIN-SUFFIX,android.com
   - DOMAIN-SUFFIX,play.googleapis.com
-  - DOMAIN-SUFFIX,mtalk.google.com          # FCM push
+  - DOMAIN-SUFFIX,mtalk.google.com
   - DOMAIN-SUFFIX,mtalk4.google.com
   - DOMAIN-SUFFIX,device-provisioning.googleapis.com
   - DOMAIN-SUFFIX,firebaseinstallations.googleapis.com
-
-  # ─── Chrome / Cast / App Engine ──
   - DOMAIN-SUFFIX,chromecast.com
   - DOMAIN-SUFFIX,chromium.org
   - DOMAIN-SUFFIX,appspot.com
-
-  # ─── Реклама и телеметрия (опционально) ─
   - DOMAIN-SUFFIX,googlesyndication.com
   - DOMAIN-SUFFIX,googleadservices.com
   - DOMAIN-SUFFIX,doubleclick.net
@@ -431,28 +256,24 @@ payload:
   - DOMAIN-SUFFIX,googletagservices.com
   - DOMAIN-SUFFIX,google-analytics.com
 
-  # ─── Torrent-площадки ─────────────────────────────
+  # Torrent sites
   - DOMAIN-SUFFIX,rutracker.org
   - DOMAIN-SUFFIX,tapochek.net
   - DOMAIN-SUFFIX,nnmclub.to
   - DOMAIN-SUFFIX,bt4gprx.com
   - DOMAIN-SUFFIX,btdig.com
 
-  # ─── Midjourney (веб-клиент и CDN) ────────────────
-  - DOMAIN-SUFFIX,midjourney.com          # www / api / app.*
-  - DOMAIN-SUFFIX,cdn.midjourney.com      # изображения
-
-  # ─── Discord (нужен Midjourney-боту) ─────────────
+  # Midjourney / Discord
+  - DOMAIN-SUFFIX,midjourney.com
+  - DOMAIN-SUFFIX,cdn.midjourney.com
   - DOMAIN-SUFFIX,discord.com
   - DOMAIN-SUFFIX,discordapp.com
   - DOMAIN-SUFFIX,discord.gg
   - DOMAIN-SUFFIX,discordmedia.net
   - DOMAIN-SUFFIX,cdn.discordapp.com
-
   - DOMAIN-SUFFIX,cloudflare.com
 
-
-  # ─── Whatsapp ─────────────
+  # WhatsApp
   - DOMAIN-SUFFIX,wa.me
   - DOMAIN-SUFFIX,wl.co
   - DOMAIN-SUFFIX,whatsappbrand.com
@@ -485,7 +306,7 @@ payload:
   - IP-CIDR,50.22.198.204/30,no-resolve
   - IP-CIDR,54.242.0.0/15,no-resolve
 
-  # ─── Telegram ─────────────
+  # Telegram
   - DOMAIN,api.imem.app
   - DOMAIN,api.swiftgram.app
   - DOMAIN-SUFFIX,cdn-telegram.org
@@ -533,7 +354,7 @@ payload:
   - IP-ASN,62014,no-resolve
   - IP-ASN,62041,no-resolve
 
-  # ─── Autodesk ─────────────
+  # Autodesk
   - DOMAIN-SUFFIX,autodesk.com
   - DOMAIN-SUFFIX,autodesk.net
   - DOMAIN-SUFFIX,autodesk.io
@@ -546,9 +367,8 @@ payload:
   - DOMAIN-SUFFIX,arnoldrenderer.com
   - DOMAIN-SUFFIX,akamaiedge.net
   - DOMAIN-SUFFIX,akamaized.net
-  - DOMAIN-SUFFIX,edgesuite.net
 
-  # ─── LinkedIn ─────────────
+  # LinkedIn / Microsoft auth
   - DOMAIN-SUFFIX,linkedin.com
   - DOMAIN-SUFFIX,licdn.com
   - DOMAIN-SUFFIX,linkedin.cn
@@ -565,6 +385,5 @@ payload:
   - DOMAIN-SUFFIX,msauth.net
   - DOMAIN-SUFFIX,msftauth.net
   - DOMAIN-SUFFIX,azureedge.net
- 
   - DOMAIN-SUFFIX,allanglen.com
   - DOMAIN-SUFFIX,speedtest.net
