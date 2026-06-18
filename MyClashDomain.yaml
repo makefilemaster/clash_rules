@@ -14,6 +14,7 @@ payload:
   - DOMAIN-SUFFIX,console.anthropic.com
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,cursor-cdn.com
 
   # Wavespeed 
   - DOMAIN-SUFFIX,wavespeed.ai
