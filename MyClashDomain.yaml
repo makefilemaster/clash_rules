@@ -1,18 +1,31 @@
 payload:
   # Cursor / Claude / Anthropic
   - DOMAIN-SUFFIX,cursor.com
+  
   - DOMAIN-SUFFIX,api.cursor.com
+  
   - DOMAIN-SUFFIX,api2.cursor.sh
+  
   - DOMAIN-SUFFIX,api3.cursor.sh
+  
   - DOMAIN-SUFFIX,cursor.sh
+  
   - DOMAIN-SUFFIX,download.cursor.sh
+  
   - DOMAIN-SUFFIX,marketplace.cursorapi.com
+  
   - DOMAIN-SUFFIX,repo42.cursor.sh
+  
   - DOMAIN-SUFFIX,cursorapi.com
+  
   - DOMAIN-SUFFIX,anthropic.com
+  
   - DOMAIN-SUFFIX,api.anthropic.com
+  
   - DOMAIN-SUFFIX,console.anthropic.com
+  
   - DOMAIN-SUFFIX,claude.ai
+  
   - DOMAIN-SUFFIX,claude.com
 
   # Wavespeed 
