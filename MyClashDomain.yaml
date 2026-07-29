@@ -67,6 +67,8 @@ payload:
   - DOMAIN-SUFFIX,polka.typekit.com
   - DOMAIN-SUFFIX,api.typekit.com
 
+  - DOMAIN-SUFFIX,vansaircraft.com
+
   # Adobe Stock / Behance / Portfolio / Firefly / Express / Document Cloud
   - DOMAIN-SUFFIX,stock.adobe.com
   - DOMAIN-SUFFIX,behance.net
