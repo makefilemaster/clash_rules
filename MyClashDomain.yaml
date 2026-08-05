@@ -15,7 +15,8 @@ payload:
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claude.com
   - DOMAIN-SUFFIX,cursor-cdn.com
-
+  - DOMAIN-SUFFIX,stripe.com
+  
   # Wavespeed 
   - DOMAIN-SUFFIX,wavespeed.ai
   - DOMAIN-SUFFIX,cloudfront.net
