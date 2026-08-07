@@ -15,7 +15,12 @@ payload:
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claude.com
   - DOMAIN-SUFFIX,cursor-cdn.com
+  - DOMAIN-SUFFIX,platform.claude.com
+  - DOMAIN-SUFFIX,console.anthropic.com
   - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,claudeusercontent.com
+  - DOMAIN-SUFFIX,bridge.claudeusercontent.com
+  - DOMAIN-SUFFIX,downloads.claude.ai
   
   # Wavespeed 
   - DOMAIN-SUFFIX,wavespeed.ai
