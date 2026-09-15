@@ -21,6 +21,7 @@ payload:
   - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN-SUFFIX,bridge.claudeusercontent.com
   - DOMAIN-SUFFIX,downloads.claude.ai
+  - DOMAIN-SUFFIX,21st.dev
   
   # Wavespeed 
   - DOMAIN-SUFFIX,wavespeed.ai
