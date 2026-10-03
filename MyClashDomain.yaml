@@ -75,6 +75,23 @@ payload:
   - DOMAIN-SUFFIX,api.typekit.com
 
   - DOMAIN-SUFFIX,vansaircraft.com
+  
+  - DOMAIN-SUFFIX,themoviedb.org
+  - DOMAIN-SUFFIX,api.themoviedb.org
+  - DOMAIN-SUFFIX,tmdb.org
+  - DOMAIN-SUFFIX,image.tmdb.org
+  - DOMAIN-SUFFIX,omdbapi.com
+  - DOMAIN-SUFFIX,www.omdbapi.com
+  - DOMAIN-SUFFIX,thetvdb.com
+  - DOMAIN-SUFFIX,www.thetvdb.com
+  - DOMAIN-SUFFIX,api.thetvdb.com
+  - DOMAIN-SUFFIX,fanart.tv
+  - DOMAIN-SUFFIX,webservice.fanart.tv
+  - DOMAIN-SUFFIX,imdb.com
+  - DOMAIN-SUFFIX,anidb.net
+  - DOMAIN-SUFFIX,api.anidb.net
+  - DOMAIN-SUFFIX,anilist.co
+  - DOMAIN-SUFFIX,graphql.anilist.co
 
   # Adobe Stock / Behance / Portfolio / Firefly / Express / Document Cloud
   - DOMAIN-SUFFIX,stock.adobe.com
