@@ -1,5 +1,7 @@
 # SingBoxDomainKZ.json plus existing MyClashDomain.yaml rules
 payload:
+  - 'DOMAIN,nytimes.com'
+  - 'DOMAIN,spellbee.org'
   - 'DOMAIN,graph.facebook.com'
   - 'DOMAIN,api.imem.app'
   - 'DOMAIN,api.swiftgram.app'
