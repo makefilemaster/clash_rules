@@ -8,6 +8,8 @@
         "api.swiftgram.app"
       ],
       "domain_suffix": [
+        "nytimes.com",
+        "spellbee.org",
         "wavespeed.ai",
         "cloudfront.net",
         "auth0.com",
