@@ -1,5 +1,6 @@
 # SingBoxDomainNL.json plus existing MyClashDomain.yaml rules
 payload:
+  - 'DOMAIN-SUFFIX,selfservicerepair.com'
   - 'DOMAIN-SUFFIX,account.adobe.com'
   - 'DOMAIN-SUFFIX,accounts.adobe.com'
   - 'DOMAIN-SUFFIX,accounts.spacex.ai'
