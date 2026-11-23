@@ -1,5 +1,6 @@
 # SingBoxDomainKZ.json plus existing MyClashDomain.yaml rules
 payload:
+  - 'DOMAIN-SUFFIX,cnevids.com'
   - 'DOMAIN-SUFFIX,id-mapper-service.gp-prod.conde.digital'
   - 'DOMAIN-SUFFIX,gp-prod.conde.digital'
   - 'DOMAIN-SUFFIX,conde.digital'
