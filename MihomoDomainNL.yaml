@@ -1,5 +1,8 @@
 # SingBoxDomainNL.json plus existing MyClashDomain.yaml rules
 payload:
+  - 'DOMAIN-SUFFIX,dp8hsntg6do36.cloudfront.net'
+  - 'DOMAIN-SUFFIX,dcdcsl55x0411.cloudfront.net'
+  - 'DOMAIN-SUFFIX,dwgyu36up6iuz.cloudfront.net'
   - 'DOMAIN-SUFFIX,cnevids.com'
   - 'DOMAIN-SUFFIX,id-mapper-service.gp-prod.conde.digital'
   - 'DOMAIN-SUFFIX,gp-prod.conde.digital'
