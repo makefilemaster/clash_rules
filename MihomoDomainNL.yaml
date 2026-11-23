@@ -1,5 +1,9 @@
 # SingBoxDomainNL.json plus existing MyClashDomain.yaml rules
 payload:
+  - 'DOMAIN-SUFFIX,architecturaldigest.com'
+  - 'DOMAIN-SUFFIX,condenast.com'
+  - 'DOMAIN-SUFFIX,condenastdigital.com'
+  - 'DOMAIN-SUFFIX,conde.digital'
   - 'DOMAIN-SUFFIX,jackbox.tv'
   - 'DOMAIN-SUFFIX,jackboxgames.com'
   - 'DOMAIN-SUFFIX,selfservicerepair.com'
